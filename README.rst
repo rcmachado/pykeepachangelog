@@ -21,4 +21,15 @@ Usage
    with open("CHANGELOG.md", "r") as fd:
        keepachangelog.parse_file(fd)
 
+Contributing
+------------
+
+Pull requests are welcomed. Before submiting you code for review, please make
+sure all the tests passed after your change:
+
+.. code-block:: bash
+
+   $ pytest
+
+
 .. keepachangelog: https://keepachangelog.com
