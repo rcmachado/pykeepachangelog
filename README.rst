@@ -32,4 +32,12 @@ sure all the tests passed after your change:
    $ pytest
 
 
+License
+-------
+
+This project is licensed under [MIT license][license]. For details please see
+`LICENSE` file.
+
+
 .. keepachangelog: https://keepachangelog.com
+.. license: https://choosealicense.com/licenses/mit/
