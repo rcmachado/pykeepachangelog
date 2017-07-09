@@ -21,6 +21,14 @@ Usage
    with open("CHANGELOG.md", "r") as fd:
        keepachangelog.parse_file(fd)
 
+How it works
+------------
+
+pykeepachangelog is a wrapper on top of [misaka][] Markdown parser. It
+expects a file that follows the format specified by [Keep a Changelog][]
+and returns the information described in a structured way (per version
+and section).
+
 Contributing
 ------------
 
@@ -41,3 +49,4 @@ This project is licensed under [MIT license][license]. For details please see
 
 .. keepachangelog: https://keepachangelog.com
 .. license: https://choosealicense.com/licenses/mit/
+.. misaka: https://github.com/FSX/misaka
