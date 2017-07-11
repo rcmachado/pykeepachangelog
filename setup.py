@@ -35,7 +35,7 @@ setup(
         "misaka",
     ],
     extras_require={
-        "test": ["pytest", "tox", "tox-pyenv"],
+        "test": ["pytest", "tox"],
     },
     use_scm_version=True,
     setup_requires=["setuptools_scm"],
