@@ -1,8 +1,8 @@
 pykeepachangelog
 ================
 
-Parses changelogs that follows [keepachangelog][] format, exposing the data in
-a structured way.
+Parses changelogs that follows keepachangelog_ format, exposing the
+data in a structured way.
 
 Installation
 ------------
@@ -26,16 +26,16 @@ Usage
 How it works
 ------------
 
-pykeepachangelog is a wrapper on top of [misaka][] Markdown parser. It
-expects a file that follows the format specified by [Keep a Changelog][]
-and returns the information described in a structured way (per version
-and section).
+pykeepachangelog is a wrapper on top of misaka_ Markdown parser. It
+expects a file that follows the format specified by
+`Keep a Changelog <keepachangelog_>`_ and returns the information
+described in a structured way (per version and section).
 
 Contributing
 ------------
 
-Pull requests are welcomed. Before submiting you code for review, please make
-sure all the tests passed after your change:
+Pull requests are welcomed. Before submiting you code for review,
+please make sure all the tests passed after your change:
 
 .. code-block:: bash
 
@@ -45,10 +45,10 @@ sure all the tests passed after your change:
 License
 -------
 
-This project is licensed under [MIT license][license]. For details please see
+This project is licensed under `MIT license`_. For details please see
 `LICENSE` file.
 
 
-.. keepachangelog: https://keepachangelog.com
-.. license: https://choosealicense.com/licenses/mit/
-.. misaka: https://github.com/FSX/misaka
+.. _keepachangelog: https://keepachangelog.com
+.. _license: https://choosealicense.com/licenses/mit/
+.. _misaka: https://github.com/FSX/misaka
