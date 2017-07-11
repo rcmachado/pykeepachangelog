@@ -34,7 +34,7 @@ setup(
     install_requires=[
         "misaka",
     ],
-    extra_require={
+    extras_require={
         "test": ["pytest", "tox", "tox-pyenv"],
     },
     use_scm_version=True,
