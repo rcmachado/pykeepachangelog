@@ -7,6 +7,8 @@ a structured way.
 Installation
 ------------
 
+pykeepachangelog supports Python 2.7, 3.5 and 3.6.
+
 .. code-block:: bash
 
    $ pip install pykeepachangelog
