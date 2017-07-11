@@ -1,6 +1,0 @@
-cffi==1.10.0
-misaka==2.1.0
-pycparser==2.18
-
-py==1.4.34
-pytest==3.1.2
